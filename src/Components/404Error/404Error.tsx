@@ -2,7 +2,7 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import Img from "../../assets/404Page.webp";
 import { Link } from "react-router-dom";
-import data from "../../data.json";
+import Data from "../../data.json";
 import Title from "../../GeneralFunction/GeneralFunction";
 
 interface ErrorData {
@@ -20,7 +20,7 @@ const Error: React.FC = () => {
     <div>
       <div>
         <div className="container">
-          {data.error.map(
+          {Data.error.map(
             ({
               id,
               Title_fr,
