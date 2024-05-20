@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Logo from "../../assets/LogoOne.png";
 import Facebook from "../../assets/Facebook.png";
@@ -46,13 +45,13 @@ const Navbar = () => {
                       <div className="flex w-full gap-8">
                         {menuItems.map((el, i) => (
                           <div key={i}>
-                            <Link
+                            <a
                               className="text-sm tracking-[1px] relative before:content-empty before:absolute before:w-0 before:bg-main before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
                               key={i}
-                              to={el}
+                              href={el}
                             >
                               {el}
-                            </Link>
+                            </a>
                           </div>
                         ))}{" "}
                       </div>
@@ -112,14 +111,14 @@ const Navbar = () => {
                     {menuItems.map((el, i) => (
                       <div key={i}>
                         <div className="my-4">
-                          <Link
+                          <a
                             className="text-sm tracking-[1px] relative before:content-empty before:absolute before:w-0 before:bg-main before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
                             key={i}
-                            to={el}
+                            href={el}
                             onClick={navHandler}
                           >
                             {el}
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     ))}{" "}
