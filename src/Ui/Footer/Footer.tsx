@@ -32,6 +32,7 @@ type Props = {
 
 const links: string[] = [
   "Accueil",
+  "Serviclim Shop",
   "Nos Services",
   "Nos Références",
   "Blog",
@@ -131,6 +132,7 @@ const Footer = () => {
         <div className="my-4 md:my-2">
           <a
             className="text-sm tracking-[1px] relative before:content-empty before:absolute before:w-0 before:bg-main before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
+            key={i}
             href={el}
           >
             {el}

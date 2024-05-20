@@ -9,6 +9,7 @@ import Linkedin from "../../assets/Linkidin.png";
 
 const menuItems: string[] = [
   "Accueil",
+  "Serviclim Shop",
   "Nos Services",
   "Nos Références",
   "Blog",

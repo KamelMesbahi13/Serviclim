@@ -4,6 +4,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 const Navbar = lazy(() => import("./Components/Navbar/Navbar.tsx"));
 const Home = lazy(() => import("./Components/Home/Home.tsx"));
 const Services = lazy(() => import("./Components/Services/Services.tsx"));
+const NewWebSite = lazy(() => import("./Components/NewWebSite/NewWebSite.tsx"));
 const References = lazy(() => import("./Components/References/References.tsx"));
 const Blog = lazy(() => import("./Components/Blog/Blog.tsx"));
 const AboutUs = lazy(() => import("./Components/AboutUs/AboutUs.tsx"));
@@ -39,6 +40,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Accueil" element={<Home />} />
+          <Route path="/Serviclim Shop" element={<NewWebSite />} />
           <Route path="/Nos Services" element={<Services />} />
           <Route path="/Nos Références" element={<References />} />
           <Route path="/Blog" element={<Blog />} />

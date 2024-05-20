@@ -7,7 +7,6 @@
     --main: #2a4c7c;
     --second: #df060a,
     --grey: #eee;
-
   }
 
 @layer components {
@@ -245,6 +244,12 @@ span {
 
 .ContactBack {
   background-image: url(../src/assets/ContactUs.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.NewWebsite {
+  background-image: url(../src/assets/NewWebsite.png);
   background-position: center center;
   background-size: cover;
 }
