@@ -10,7 +10,7 @@ const AboutUs = lazy(() => import("./Components/AboutUs/AboutUs.tsx"));
 const Up = lazy(() => import("./Ui/Up/Up.tsx"));
 const ContactUs = lazy(() => import("./Components/ContactUs/ContactUs.tsx"));
 const Footer = lazy(() => import("./Ui/Footer/Footer.tsx"));
-const Error = lazy(() => import("./Components/404Error/404Error.tsx"));
+const Error = lazy(() => import("./Components/Error/Error.tsx"));
 
 const App = () => {
   const { scrollYProgress } = useScroll();
