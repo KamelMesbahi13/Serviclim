@@ -36,7 +36,7 @@ const Navbar = () => {
           }}
         >
           <div className="container">
-            <div className="z-30 hidden w-full pt-6 lg:flex">
+            <div className="z-30 hidden w-full pt-5 lg:flex">
               <div className="flex w-full mx-auto">
                 <div className="flex justify-between w-full">
                   <img src={Logo} className="w-48" alt="Logo" />
